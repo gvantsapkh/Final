@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Salon</title>
+    <script src="jquery.txt"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="flex-container column">
+        <div class="gridNav">
+            <a href="index.html"><img src="Image/logo-removebg-preview.png" alt=""></a>
+            <div class="navbar">
+                <ul class="menu">
+                    <li class="nav-1">
+                        <a href="book.html" class="book">Book Online</a>
+                    </li>
+                    <li class="nav-2">
+                        <a href="serv.html" class="book">Services Offerings</a>
+                        <div class="nav-items-1">
+                            <a href="serv.html">Hair</a>
+                            <a href="serv.html">Face</a>
+                            <a href="serv.html">Nails</a>
+                            <a href="serv.html">Make-up</a>
+                        </div>
+                    </li>
+                    <li class="nav-3">
+                        <a href="shop.html" class="book">Shop Products</a>
+                        <div class="nav-items-2">
+                            <a href="shop.html">Shampoo</a>
+                            <a href="shop.html">Nail Color</a>
+                            <a href="shop.html">Skincare</a>
+                            <a href="shop.html">Make-up</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-4">
+                    <a href="#" class="book">About Us</a>
+                    <div class="nav-items-3">
+                        <a href="#">Team</a>
+                        <a href="#">Delivery</a>
+                        <a href="#">Partners</a>
+                        <a href="#">Jobs</a>
+                    </div>
+                </li> -->
+                    <li class="nav-5">
+                        <a href="location.html" class="book">Locations</a>
+                        <div class="nav-items-4">
+                            <a href="location.html">New-York</a>
+                            <a href="location.html">Boston</a>
+                            <a href="location.html">Miami</a>
+                            <a href="location.html">Chicago</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex-item slide">
+            <div class="mySlides fade">
+                <img src="Image/slide1.jpg" width="100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Image/slide2.jpg" width="100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Image/slide3.jpg" width="100%;">
+            </div>
+            <div class="mySlides fade">
+                <img src="Image/slide4.jpg" width="100%;">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center;">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+            <span class="dot" onclick="currentSlides(4)"></span>
+        </div>
+        <!-- Info -->
+        <div class="flex-item info">
+            <div class="grid-item info1">
+                <div class="card1">
+                    <h4 class="spa">Spa Weekend</h4>
+                    <img src="Image/info1.jpg" alt="img" width="100%">
+                    <div class="overlay">
+                        <div class="text"><p>Get yourself a lovely spa day for 25% off</p></div>
+                        <div class="booknow"><a href="book.html">Book Now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item info2">
+                <div class="card2">
+                    <h4 class="hair">Hair Care</h4>
+                    <img src="Image/info3.jpg" alt="img" width="100%">
+                    <div class="overlay">
+                        <div class="text">Our hair salons specialize in balayage, curly hair, lived-in hairstyles, and
+                            vibrant color.</div>
+                            <div class="booknow"><a href="book.html">Book Now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item info3">
+                <div class="card1">
+                    <h4 class="spa">Manicure</h4>
+                    <img src="Image/info2.jpg" alt="img" width="100%">
+                    <div class="overlay">
+                        <div class="text">Have you still not found your manicure and
+                            pedicure specialist? Then you are definitely welcome to us!</div>
+                            <div class="booknow"><a href="book.html">Book Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us -->
+        <div class="flex-item about">
+            <p>A vibrant, welcoming space where you can feel completely at home. A collective of
+                industry professionals who are dedicated solely to you, so you can focus on
+                conquering the world and feel beautiful doing it.</p>
+            <p>So join us, have a seat, relax and we’ll take care of the rest!</p>
+        </div>
+        <div class="flex-item prod">
+            <p>Our Products</p>
+        </div>
+        <div class="flex-item products">
+            <img src="Image/logo1.png" alt="">
+            <img src="Image/logo2.png" alt="">
+            <img src="Image/logo3.png" alt="">
+            <img src="Image/logo4.png" alt="">
+            <img src="Image/logo5.png" alt="">
+            <img src="Image/logo6.png" alt="">
+            <img src="Image/logo7.png" alt="">
+            <img src="Image/logo8.png" alt="">
+            <img src="Image/logo9.png" alt="">
+        </div>
+        <div class="footer">
+            <div class="grid-item foot1">
+                <div class="news1">
+                    <p>Subscribe to our Newsletter</p>
+                </div>
+                <div class="news2">
+                    <input type="text" class="name" placeholder="Name" name="name" required>
+                </div>
+                <div class="news3">
+                    <input type="text" class="email" placeholder="Email address" name="mail" required>
+                </div>
+                <div class="news4">
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                    </label>
+                </div>
+                <div class="subscribe">
+                    <input type="submit" value="Subscribe" onclick="refresh()">
+                </div>
+            </div>
+            <div class="grid-item foot2">
+                <p>Connect on Social</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="Image/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="Image/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><img src="Image/linkedin.png" alt=""></a>
+                </div>
+            </div>
+            <div class="grid-item foot3">
+                <p class="contact">Contact Us</p>
+                <p class="loc">Locations:</p>
+                <ul class="locations">
+                    <p>New-York: 114 Wood Lane
+                        Bronx, NY 10452</p>
+                    <p>Boston: 22 Round Hill Rd, VA 22713</p>
+                    <p>Miami: 305 18th Ave NE, OK 74354</p>
+                    <p>Chicago: 12112 S Front Ave, IL 60628</p>
+                </ul>
+                <p class="telephone">Telephone:</p>
+                <p class="number">Call: 971.267.4080</p>
+                <p class="hours">Working Hours:</p>
+                <ul class="">
+                    <p>Mon-Fri 10am to 8pm</p>
+                    <p>Fri-Sun 12pm to 8pm</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
